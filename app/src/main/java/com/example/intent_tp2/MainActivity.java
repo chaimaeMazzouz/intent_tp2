@@ -47,12 +47,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         PackageManager.PERMISSION_DENIED) {
                     ActivityCompat.requestPermissions(this,
                             new String[] { Manifest.permission.CAMERA },3);
-                }  else {
-
-                // You can directly ask for the permission.
-                    break;
-
-            }
+                }
                 Intent intent3 = new Intent("android.media.action.IMAGE_CAPTURE");
                 startActivity(intent3);
                 break;
