@@ -8,13 +8,14 @@ import android.widget.TextView;
 
 public class Activity3 extends AppCompatActivity {
 
-    TextView txv;
+    TextView t1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        txv =findViewById(R.id.t1);
+        setContentView(R.layout.activity_3);
+        t1 =findViewById(R.id.t1);
         Intent i =getIntent();
         String name = i.getStringExtra("nom");
-        txv.setText(name);
+        t1.setText(name);
     }
 }

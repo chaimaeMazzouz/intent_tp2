@@ -4,4 +4,13 @@
     <string name="bt1">bt1</string>
     <string name="bt3">bt3</string>
     <string name="bt4">bt4</string>
+    <string name="Activity2" />
+    <string name="Activity1" />
+    <string name="CAMERA" />
+    <string name="VIDEO" />
+    <string name="VIDE">VIDEO</string>
+    <string name="activity1">Activity1</string>
+    <string name="video">VIDEO</string>
+    <string name="camera">CAMERA</string>
+    <string name="activity2">Activity2</string>
 </resources>

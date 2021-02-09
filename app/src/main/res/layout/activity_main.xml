@@ -10,23 +10,23 @@
         android:id="@+id/btn1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/bt1" />
+        android:text="@string/activity1" />
 
     <Button
         android:id="@+id/btn2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/bt2" />
+        android:text="@string/activity2" />
 
     <Button
         android:id="@+id/btn3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/bt3" />
+        android:text="@string/camera" />
     <Button
         android:id="@+id/btn4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/bt4" />
+        android:text="@string/video" />
 
 </LinearLayout>
